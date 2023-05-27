@@ -1,1 +1,56 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Rustic Fine Artisan Jewelry Crafted in Edmonton, Canada","text_alignment":"center","color_scheme":"background-2","link":""}}},"block_order":["announcement-bar-0"],"settings":{}},"header":{"type":"header","settings":{"logo_position":"top-center","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":false,"color_scheme":"background-1","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":12,"padding_bottom":0}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Rustic Fine Artisan Jewelry Crafted in Edmonton, Canada",
+            "text_alignment": "center",
+            "color_scheme": "background-2",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "999c4d21-ead7-4867-bd89-aef84fd6c598": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align: center;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/products\/IMG_3613.jpg\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/logo.jpg\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/IMG_5915.jpg?v=1685063358\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/IMG_3603.jpg?v=1685063402\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/IMG_0484.jpg?v=1685063357\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/IMG_3491.jpg?v=1685063443\" height=\"400\" \/>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0709\/8856\/2705\/files\/IMG_5878_9a2ccef5-322d-4468-b1d8-9a400d3ff3ab.jpg?v=1685105359\" height=\"400\" \/>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "999c4d21-ead7-4867-bd89-aef84fd6c598"
+  ]
+}
