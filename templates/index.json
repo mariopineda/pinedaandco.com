@@ -6,7 +6,7 @@
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Become part of our family",
+            "heading": "Become Part of The Family",
             "heading_size": "h1"
           }
         },
@@ -27,11 +27,15 @@
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-1",
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-2"
       ],
+      "custom_css": [
+        "h2 {font-size: 32px; font-family: \"Alegreya SC\", serif;}",
+        "p {font-size: 20px; font-family: \"Alegreya\", serif;}"
+      ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     },
     "38f6bfb0-d3b5-46b2-9203-8d91ac11046b": {
