@@ -1,6 +1,3 @@
-{% section 'rich-text' %}
-{% section 'newsletter' %}
-
 <div class="page-width">
   <header class="section-header text-centre">
     <h1>Test</h1>
@@ -9,7 +6,8 @@
     <div class="grid_item medium-up--four-fifths medium-up--push-one-tenth">
       <div class="rte">
         <button type="button" id="myButton" class="custom-button">Click Me!</button>
-
+        {% section 'rich-text' %}
+        {% section 'newsletter' %}
         {{ page.content }}
       </div>
     </div>
