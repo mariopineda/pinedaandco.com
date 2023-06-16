@@ -252,11 +252,13 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
-    {%- if settings.cart_type == 'drawer' -%}
-      {%- render 'cart-drawer' -%}
-    {%- endif -%}
+    {% unless template.suffix contains 'landing-page' %}
+      {%- if settings.cart_type == 'drawer' -%}
+        {%- render 'cart-drawer' -%}
+      {%- endif -%}
 
-    {% sections 'header-group' %}
+      {% sections 'header-group' %}
+    {% endunless %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
@@ -272,6 +274,7 @@
     </ul>
 
     <script>
+      
       
       
       window.shopUrl = '{{ request.origin }}';
@@ -301,6 +304,7 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+
 
 
     </script>
