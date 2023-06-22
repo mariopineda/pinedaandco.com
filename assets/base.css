@@ -3149,6 +3149,6 @@ details-disclosure > details {
 }
 
 <!-- Popup code -->
-.popup { background-color: #fff; border-radius: 8px; padding: 50px 30px; box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px; position: absolute; z-index: 25; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 450px !important; display: none; width: 95%; } @media only screen and (max-width: 767px) { .popup { padding: 35px 15px; } } .popup-close:after { width: 30px; content: '╳'; position: fixed; right: 10px; top: 10px; font-size: 20px; line-height: 30px; cursor: pointer; } .popup-btn { cursor: pointer; } .popup-overlay { position: fixed; height: 100%; width: 100% !important; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.6); display: none; z-index: 100; }
+
 <!-- Popup code end -->
 
