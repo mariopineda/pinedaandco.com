@@ -248,6 +248,22 @@
   </head>
 
   <body class="gradient">
+    <!-- Popup code -->
+    <div class="popup-btn">
+      <!-- Change the text below to what you need it to be -->
+      <span>ADD WHAT YOU WANT THE CLICKABLE TEXT TO BE</span>
+    </div>
+    <div class="popup-overlay">
+      <div class="popup">
+        <!-- Put your page handle between the 'page.' and '.content' -->
+        {{ pages['popup-content'].content }}
+        <span class="popup-close"></span>
+      </div>
+      <!-- Coded by jotting.com -->
+      {{ 'popup.js' | asset_url | script_tag }}
+    </div>
+    <!-- Popup code end -->
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -274,6 +290,7 @@
     </ul>
 
     <script>
+      
       
       
       
@@ -304,6 +321,7 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+
 
 
 
