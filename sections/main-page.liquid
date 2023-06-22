@@ -14,16 +14,6 @@
   }
 {%- endstyle -%}
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
-  </h1>
-  <div class="rte">
-    main-page.liquid
-    {{ page.content }}
-  </div>
-</div>
-
 <!-- Popup code -->
 <div class="popup-btn">
   <!-- Change the text below to what you need it to be -->
@@ -39,6 +29,16 @@
   {{ 'popup.js' | asset_url | script_tag }}
 </div>
 <!-- Popup code end -->
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  <div class="rte">
+    main-page.liquid
+    {{ page.content }}
+  </div>
+</div>
 
 {% schema %}
 {
