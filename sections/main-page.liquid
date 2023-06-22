@@ -14,22 +14,6 @@
   }
 {%- endstyle -%}
 
-<!-- Popup code -->
-<div class="popup-btn">
-  <!-- Change the text below to what you need it to be -->
-  <span>ADD WHAT YOU WANT THE CLICKABLE TEXT TO BE</span>
-</div>
-<div class="popup-overlay">
-  <div class="popup">
-    <!-- Put your page handle between the 'page.' and '.content' -->
-    {{ pages['popup-content'].content }}
-    <span class="popup-close"></span>
-  </div>
-  <!-- Coded by jotting.com -->
-  {{ 'popup.js' | asset_url | script_tag }}
-</div>
-<!-- Popup code end -->
-
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
