@@ -2,7 +2,6 @@
   "sections": {
     "6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-0": {
           "type": "heading",
@@ -14,7 +13,7 @@
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>If you’d like to stay in the loop on offers, new one-of-a-kind pieces, exclusives and more just pop your email below.<\/p>"
+            "text": "<p>Be the first to know about our latest releases and special offers by subscribing to our newsletter.<\/p>"
           }
         },
         "template--19031139352849__6bf7f4c1-6ee6-4bb5-83d6-23ac4ee59ff8-16849390909572463a-2": {
@@ -35,8 +34,8 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "38f6bfb0-d3b5-46b2-9203-8d91ac11046b": {
