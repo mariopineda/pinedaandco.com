@@ -89,6 +89,7 @@
         "template--19099883667729__c481c87c-11f2-4b19-8696-d10aa0b52767-16875358611b8d72ae-1",
         "template--19099883667729__c481c87c-11f2-4b19-8696-d10aa0b52767-16875358611b8d72ae-2"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
